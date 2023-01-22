@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Clock Valeria Panzetta</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
-        integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.31/moment-timezone-with-data-1970-2030.min.js"></script>
+        
 </head>
 <body>
     <div class="container">
@@ -22,20 +23,28 @@
             <option value="">Sydney</option>
         </select>
 
-        <div class="city">
+        <div class="city" id="new-dehli">
             <div>
             <h2>New Dehli 🛕</h2>
-            <div class="date">August 15th 2022</div>
+            <div class="date"></div>
         </div>
-            <div class="time">1:48:05 <small>PM</small></div>
+            <div class="time"></div>
+        </div>
+
+        <div class="city" id="rome">
+            <div>
+                <h2>Rome 🇮🇹</h2>
+                <div class="date"></div>
+            </div>
+            <div class="time"></div>
         </div>
         
-        <div class="city">
+        <div class="city" id="toronto">
             <div>
             <h2>Toronto 🍁</h2>
-            <div class="date">August 15th 2022</div>
+            <div class="date"></div>
         </div>
-            <div class="time">1:48:05 <small>AM</small></div>
+            <div class="time"></div>
         </div>
     </div>
     <footer>This project was coded with 💜 by <strong>Valeria Panzetta</strong> and is <a href="https://github.com/ValeriaCaptain7/world-clock" target="_blank">open sourced on GitHub</a>.</footer>
