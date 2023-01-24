@@ -1,5 +1,16 @@
 function updateTime() {
-    
+ // Rome
+  let romeElement = document.querySelector("#rome");
+  if (romeElement) {
+    let romeDateElement = romeElement.querySelector(".date");
+    let romeTimeElement = romeElement.querySelector(".time");
+    let romeTime = moment().tz("Europe/Rome");
+
+    romeDateElement.innerHTML = romeTime.format("MMMM Do YYYY");
+    romeTimeElement.innerHTML = romeTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  } 
   // New Dehli
   let newDehliElement = document.querySelector("#new-dehli");
   if (newDehliElement) {
@@ -9,19 +20,6 @@ function updateTime() {
 
     newDehliDateElement.innerHTML = newDehliTime.format("MMMM Do YYYY");
     newDehliTimeElement.innerHTML = newDehliTime.format(
-      "h:mm:ss [<small>]A[</small>]"
-    );
-  }
-
-  // Rome
-  let romeElement = document.querySelector("#rome");
-  if (romeElement) {
-    let romeDateElement = romeElement.querySelector(".date");
-    let romeTimeElement = romeElement.querySelector(".time");
-    let romeTime = moment().tz("Europe/Rome");
-
-    romeDateElement.innerHTML = romeTime.format("MMMM Do YYYY");
-    romeTimeElement.innerHTML = romeTime.format(
       "h:mm:ss [<small>]A[</small>]"
     );
   }
@@ -37,29 +35,6 @@ function updateTime() {
     torontoTimeElement.innerHTML = torontoTime.format("h:mm:ss [<small>]A[</small>]");
   }
 
-  // Jakutsk
-   let jakutskElement = document.querySelector("#jakutsk");
-   if (jakutskElement) {
-     let jakutskDateElement = jakutskElement.querySelector(".date");
-     let jakutskTimeElement = jakutskElement.querySelector(".time");
-     let jakutskTime = moment().tz("Asia/Yakutsk");
-
-     jakutskDateElement.innerHTML = jakutskTime.format("MMMM Do YYYY");
-     jakutskTimeElement.innerHTML = jakutskTime.format(
-       "h:mm:ss [<small>]A[</small>]"
-     );
-   }
-   let londonElement = document.querySelector("#london");
-   if (londonElement) {
-     let londonDateElement = londonElement.querySelector(".date");
-     let londonTimeElement = londonElement.querySelector(".time");
-     let londonTime = moment().tz("Europe/London");
-
-     londonDateElement.innerHTML = londonTime.format("MMMM Do YYYY");
-     londonTimeElement.innerHTML = londonTime.format(
-       "h:mm:ss [<small>]A[</small>]"
-     );
-   }
 }
 
 function updateCity(event) {

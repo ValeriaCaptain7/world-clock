@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(circle at 10% 20%, rgb(90, 92, 106, 0.7) 50%, rgb(32, 45, 58) 81.3%), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/276/original/brett-zeck-eyfMgGvo9PA-unsplash.jpg?1674562143);
+    background-image: radial-gradient(circle at 10% 20%, rgb(90, 92, 106, 0.5) 30%, rgb(32, 45, 58, 0.9) 81.3%), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/276/original/brett-zeck-eyfMgGvo9PA-unsplash.jpg?1674562143);
     padding: 20px 0;
     background-size: cover;
     background-position: center;
@@ -11,6 +11,8 @@ body {
 h1 {
     text-align: center;
     font-size: 36px;
+    color: rgba(66, 94, 121, 0.9);
+    letter-spacing: 0.5ex;
 }
 
 h2 {
@@ -19,6 +21,7 @@ h2 {
 }
 
 select {
+    font-family: 'Space Mono', monospace;
     display: block;
     width: 100%;
     font-size: 18px;
@@ -27,11 +30,11 @@ select {
 }
 
 .container {
-    background: rgba(29, 30, 34, 0.799);
+    background: rgba(29, 30, 34, 0.9);
     max-width: 600px;
     margin: 60px auto;
     padding: 30px;
-    box-shadow: 7px 7px 5px 2px rgba(237, 236, 223, 0.406);
+    box-shadow: 7px 7px 5px 2px rgba(237, 236, 223, 0.357);
     border-radius: 10px;
 }
 
@@ -41,14 +44,15 @@ select {
     justify-content: space-between;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     padding: 20px 0;
-     cursor:pointer;
+    cursor:pointer;
     color: rgba(255, 255, 255, 0);
+    letter-spacing: 0.5ex;
     text-shadow: 0em 0em 3em rgb(24, 254, 2),
                  0em 0em 2em rgb(24, 254, 2),
                  1px 1px 5px rgb(24, 254, 2),
                  0px 0px 15px rgb(24, 254, 2),
                  1px 0px 0px white,
-                -1px 0px 2px rgba(0, 0, 0, .5);
+                -1px 0px 2px rgba(0, 0, 0, 0.5);
 }
 
 .city:hover {
@@ -87,6 +91,22 @@ select {
 
 footer {
     text-align: center;
-    font-size: medium;
-    color: rgba(0, 0, 0, 0.8);
+    font-size: small;
+    color: rgba(17, 24, 31, 0.979);
+}
+
+a {
+    color:#83ff00;
+    cursor: pointer;
+}
+
+a:hover {
+    cursor:pointer;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 0em 0em 3em rgb(24, 254, 2),
+                 0em 0em 2em rgb(24, 254, 2),
+                 1px 1px 5px rgb(24, 254, 2),
+                 0px 0px 15px rgb(24, 254, 2),
+                 1px 0px 0px white,
+                -1px 0px 2px rgba(0, 0, 0, 0.5);
 }
