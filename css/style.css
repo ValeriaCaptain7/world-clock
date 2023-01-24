@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(53, 55, 62);
+    background-image: radial-gradient(circle at 10% 20%, rgb(90, 92, 106, 0.7) 50%, rgb(32, 45, 58) 81.3%), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/276/original/brett-zeck-eyfMgGvo9PA-unsplash.jpg?1674562143);
+    padding: 20px 0;
+    background-size: cover;
+    background-position: center;
     font-family: 'Space Mono', monospace;
     --neon-text-color: #f40;
     --neon-border-color: #08f;
