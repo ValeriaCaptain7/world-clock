@@ -11,7 +11,7 @@ body {
 h1 {
     text-align: center;
     font-size: 36px;
-    color: rgba(99, 137, 173, 0.8);
+    color: rgba(245, 244, 228, 0.502);
     letter-spacing: 0.5ex;
 }
 
@@ -92,15 +92,15 @@ select {
 footer {
     text-align: center;
     font-size: small;
-    color:rgba(99, 137, 173, 0.8);
+
 }
 
-a {
+.github-link{
     color:#83ff00;
     cursor: pointer;
 }
 
-a:hover {
+.github-link:hover {
     cursor:pointer;
     color: rgba(255, 255, 255, 0);
     text-shadow: 0em 0em 3em rgb(24, 254, 2),
