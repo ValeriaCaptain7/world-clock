@@ -10,8 +10,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.31/moment-timezone-with-data-1970-2030.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
         
 </head>
 <body>
@@ -20,7 +20,7 @@
 
         <select id="city">
             <option value="">Select a city...</option>
-            <option value="current">Find current location</option>
+            <option value="current">Find current location📍</option>
             <option value="Asia/Yakutsk">Yakutsk</option>
             <option value="Europe/Rome">Rome</option>
             <option value="Europe/Berlin">Berlin</option>
@@ -29,6 +29,15 @@
         </select>
 
         <div id="cities">
+
+            <div class="city" id="london">
+                <div>
+                    <h2>London</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
+
         <div class="city" id="new-dehli">
             <div>
             <h2>New Dehli 🛕</h2>

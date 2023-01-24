@@ -1,6 +1,8 @@
 body {
     background-color: #999999;
     font-family: 'Space Mono', monospace;
+    --neon-text-color: #f40;
+  --neon-border-color: #08f;
 }
 
 h1 {
@@ -36,6 +38,27 @@ select {
     justify-content: space-between;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     padding: 20px 0;
+     cursor:pointer;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 0em 0em 3em rgb(24, 254, 2),
+                 0em 0em 2em rgb(24, 254, 2),
+                 1px 1px 5px rgb(24, 254, 2),
+                 0px 0px 15px rgb(24, 254, 2),
+                 1px 0px 0px white,
+                -1px 0px 2px rgba(0, 0, 0, .5);
+}
+
+.city:hover {
+    color: #83ff00;
+    text-shadow: 0em 0em 5em rgb(24, 254, 2),
+                 0em 0em 3em rgb(24, 254, 2),
+                 0em 0em 2em rgb(24, 254, 2),
+                 1px 1px 5px rgb(24, 254, 2),
+                 0px 0px 10px rgb(24, 254, 2),
+                 0px 0px 25px rgb(24, 254, 2),
+                 0px 0px 45px rgb(24, 254, 2),
+                 2px 1px 0px white,
+                -1px 0px 2px rgba(0, 0, 0, .5);
 }
 
 .city:last-child {
