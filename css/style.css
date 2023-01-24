@@ -1,6 +1,5 @@
 body {
     background-image: radial-gradient(circle at 10% 20%, rgb(90, 92, 106, 0.5) 30%, rgb(32, 45, 58, 0.9) 81.3%), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/276/original/brett-zeck-eyfMgGvo9PA-unsplash.jpg?1674562143);
-    background-repeat: no-repeat;
     padding: 20px 0;
     background-size: cover;
     background-position: center;
@@ -12,7 +11,7 @@ body {
 h1 {
     text-align: center;
     font-size: 36px;
-    color: rgba(66, 94, 121, 0.9);
+    color: rgba(99, 137, 173, 0.8);
     letter-spacing: 0.5ex;
 }
 
@@ -93,7 +92,7 @@ select {
 footer {
     text-align: center;
     font-size: small;
-    color: rgba(17, 24, 31, 0.979);
+    color:rgba(99, 137, 173, 0.8);
 }
 
 a {
